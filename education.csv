@@ -2,331 +2,331 @@
 "Note: For 1970 and 1980, the share of adults with less than high school includes those who had not completed the 12th grade. In 1990, 2000, and estimates from the 5-year period American Conmunity Survey, the share includes those who did not receive a high school diploma or its equivalent (such as a GED). For definitions of rural classifications, see the USDA, Economic Research Service webpage ""Rural Classifications"" in the ""Rural Economy and Population"" topic. Note that counties not existing when rural classifications were determined will not have values for those fields.",,,,,
 "Source: USDA, Economic Research Service using data from U.S. Department of Commerce, Bureau of the Census, 1970, 1980, 1990, 2000 Censuses of Population, and 2008–12 and 2017–21 American Community Survey 5-year period county-level estimates. Data as of January 24, 2023. For more information contact Austin Sanders.",,,,,
 Federal Information Processing Standard (FIPS) Code,State,Area name,"Percent of adults with a high school diploma only, 2017-21","Percent of adults completing some college or associate's degree, 2017-21","Percent of adults with a bachelor's degree or higher, 2017-21"
-01001,AL,Autauga County,32.8,28.7,28.1
-01003,AL,Baldwin County,27.4,31.2,32.5
-01005,AL,Barbour County,36.7,27.8,11.2
-01007,AL,Bibb County,43.9,24.7,11.9
-01009,AL,Blount County,35.1,33.6,14.9
-01011,AL,Bullock County,41.3,24.6,11.7
-01013,AL,Butler County,45.2,26.3,14.0
-01015,AL,Calhoun County,34.6,31.1,19.5
-01017,AL,Chambers County,36.2,32.9,13.7
-01019,AL,Cherokee County,36.9,30.1,12.8
-01021,AL,Chilton County,42.9,25.3,13.5
-01023,AL,Choctaw County,37.5,31.4,11.7
-01025,AL,Clarke County,41.4,26.9,13.9
-01027,AL,Clay County,38.2,31.4,13.4
-01029,AL,Cleburne County,37.5,29.2,16.4
-01031,AL,Coffee County,28.0,35.7,22.7
-01033,AL,Colbert County,37.7,31.2,17.9
-01035,AL,Conecuh County,48.5,26.6,12.5
-01037,AL,Coosa County,41.8,32.1,11.2
-01039,AL,Covington County,38.0,31.4,15.8
-01041,AL,Crenshaw County,41.8,23.0,16.4
-01043,AL,Cullman County,32.4,35.3,16.5
-01045,AL,Dale County,30.9,35.3,18.7
-01047,AL,Dallas County,38.2,31.6,16.1
-01049,AL,DeKalb County,33.5,30.3,14.4
-01051,AL,Elmore County,32.1,31.0,24.6
-01053,AL,Escambia County,43.7,25.4,12.5
-01055,AL,Etowah County,33.8,34.4,18.0
-01057,AL,Fayette County,41.0,30.2,11.8
-01059,AL,Franklin County,42.2,23.0,14.3
-01061,AL,Geneva County,36.6,32.4,13.5
-01063,AL,Greene County,39.3,32.5,12.7
-01065,AL,Hale County,39.1,26.4,15.8
-01067,AL,Henry County,32.2,27.5,21.6
-01069,AL,Houston County,32.1,33.4,22.2
-01071,AL,Jackson County,38.3,28.1,16.1
-01073,AL,Jefferson County,26.4,29.9,34.7
-01075,AL,Lamar County,41.7,30.8,10.0
-01077,AL,Lauderdale County,35.1,28.1,25.5
-01079,AL,Lawrence County,41.3,26.6,15.3
-01081,AL,Lee County,22.1,30.7,38.6
-01083,AL,Limestone County,27.3,30.8,28.4
-01085,AL,Lowndes County,43.1,26.5,15.1
-01087,AL,Macon County,30.0,32.3,21.2
-01089,AL,Madison County,19.2,28.5,44.3
-01091,AL,Marengo County,35.7,31.2,19.7
-01093,AL,Marion County,35.6,33.1,12.6
-01095,AL,Marshall County,31.2,31.0,21.4
-01097,AL,Mobile County,34.2,29.7,23.9
-01099,AL,Monroe County,44.7,24.8,12.9
-01101,AL,Montgomery County,25.8,28.5,33.4
-01103,AL,Morgan County,31.2,30.8,22.8
-01105,AL,Perry County,40.1,19.6,18.9
-01107,AL,Pickens County,42.3,27.6,13.3
-01109,AL,Pike County,36.3,23.3,27.8
-01111,AL,Randolph County,34.4,29.6,16.2
-01113,AL,Russell County,29.5,38.5,17.3
-01115,AL,St. Clair County,35.2,32.4,18.5
-01117,AL,Shelby County,19.8,29.0,44.8
-01119,AL,Sumter County,33.5,34.3,19.5
-01121,AL,Talladega County,34.6,32.4,15.9
-01123,AL,Tallapoosa County,31.6,31.9,18.1
-01125,AL,Tuscaloosa County,29.8,29.2,30.6
-01127,AL,Walker County,34.6,33.6,14.1
-01129,AL,Washington County,42.5,30.1,13.6
-01131,AL,Wilcox County,39.2,29.0,11.0
-01133,AL,Winston County,38.7,27.1,13.5
-02010,AK,Aleutian Islands,,,
-02013,AK,Aleutians East Borough,41.6,27.2,15.9
-02016,AK,Aleutians West Census Area,43.4,30.9,16.8
-02020,AK,Anchorage Municipality,23.7,33.7,36.8
-02050,AK,Bethel Census Area,46.6,22.6,12.7
-02060,AK,Bristol Bay Borough,30.2,42.5,22.1
-02063,AK,"Chugach Census Area, Alaska",23.3,41.3,30.7
-02066,AK,"Copper River Census Area, Alaska",35.2,29.1,29.8
-02068,AK,Denali Borough,30.4,28.5,39.4
-02070,AK,Dillingham Census Area,39.9,27.1,19.6
-02090,AK,Fairbanks North Star Borough,25.6,36.3,32.6
-02100,AK,Haines Borough,39.4,32.6,25.6
-02105,AK,Hoonah-Angoon Census Area,36.5,34.9,22.3
-02110,AK,Juneau City and Borough,21.0,34.4,40.1
-02122,AK,Kenai Peninsula Borough,30.9,35.7,27.4
-02130,AK,Ketchikan Gateway Borough,28.9,38.7,26.4
-02150,AK,Kodiak Island Borough,28.2,33.2,29.2
-02158,AK,Kusilvak Census Area,55.6,21.0,2.9
-02160,AK,Kuskokwim Division,,,
-02164,AK,Lake and Peninsula Borough,40.7,26.3,22.2
-02170,AK,Matanuska-Susitna Borough,33.0,37.0,23.7
-02180,AK,Nome Census Area,43.6,25.7,18.4
-02185,AK,North Slope Borough,41.4,30.6,15.6
-02188,AK,Northwest Arctic Borough,47.1,22.8,14.4
-02195,AK,Petersburg Census Area,31.0,32.0,28.4
-02198,AK,Prince of Wales-Hyder Census Area,38.1,35.1,19.2
-02201,AK,Prince of Wales-Outer Ketchikan Census Area,,,
-02220,AK,Sitka City and Borough,25.4,36.2,33.2
-02230,AK,Skagway Municipality,33.5,31.9,25.0
-02231,AK,Skagway-Yakutat-Angoon Census Area,,,
-02232,AK,Skagway-Hoonah-Angoon Census Area,,,
-02240,AK,Southeast Fairbanks Census Area,38.1,35.1,19.3
-02250,AK,Upper Yukon Division,,,
-02261,AK,Valdez-Cordova Census Area,,,
-02275,AK,Wrangell City and Borough,37.0,32.6,15.2
-02280,AK,Wrangell-Petersburg Census Area,,,
-02282,AK,Yakutat City and Borough,44.6,39.7,10.3
-02290,AK,Yukon-Koyukuk Census Area,42.3,31.9,12.9
-04001,AZ,Apache County,31.0,38.3,12.8
-04003,AZ,Cochise County,24.4,38.5,25.8
-04005,AZ,Coconino County,21.3,30.9,38.7
-04007,AZ,Gila County,28.5,39.7,18.8
-04009,AZ,Graham County,29.6,39.1,14.7
-04011,AZ,Greenlee County,32.6,39.1,16.0
-04012,AZ,La Paz County,34.0,38.2,11.8
-04013,AZ,Maricopa County,22.0,32.5,34.4
-04015,AZ,Mohave County,34.3,38.5,14.6
-04017,AZ,Navajo County,29.5,38.4,16.7
-04019,AZ,Pima County,21.4,33.6,34.4
-04021,AZ,Pinal County,30.4,36.2,20.9
-04023,AZ,Santa Cruz County,26.1,28.6,23.0
-04025,AZ,Yavapai County,25.2,38.6,27.8
-04027,AZ,Yuma County,26.6,32.6,15.7
-05001,AR,Arkansas County,41.9,28.2,16.6
-05003,AR,Ashley County,50.9,22.3,12.0
-05005,AR,Baxter County,34.7,35.3,18.6
-05007,AR,Benton County,29.4,25.8,34.6
-05009,AR,Boone County,33.8,37.5,17.8
-05011,AR,Bradley County,42.9,28.7,12.5
-05013,AR,Calhoun County,43.3,28.6,12.2
-05015,AR,Carroll County,35.2,28.0,22.0
-05017,AR,Chicot County,38.3,25.3,14.8
-05019,AR,Clark County,32.0,30.6,27.9
-05021,AR,Clay County,42.8,27.5,14.0
-05023,AR,Cleburne County,42.4,28.9,17.0
-05025,AR,Cleveland County,46.7,27.3,16.7
-05027,AR,Columbia County,39.8,27.1,20.2
-05029,AR,Conway County,41.0,28.5,18.7
-05031,AR,Craighead County,32.8,27.9,28.9
-05033,AR,Crawford County,34.1,31.7,19.1
-05035,AR,Crittenden County,35.4,31.6,17.5
-05037,AR,Cross County,41.8,26.0,14.1
-05039,AR,Dallas County,45.2,31.0,11.5
-05041,AR,Desha County,44.2,23.0,13.7
-05043,AR,Drew County,36.6,26.6,23.7
-05045,AR,Faulkner County,30.1,30.1,32.9
-05047,AR,Franklin County,41.6,34.3,10.6
-05049,AR,Fulton County,37.2,37.3,11.4
-05051,AR,Garland County,31.8,34.8,23.8
-05053,AR,Grant County,42.6,31.0,18.0
-05055,AR,Greene County,44.3,28.0,16.3
-05057,AR,Hempstead County,38.4,29.4,16.0
-05059,AR,Hot Spring County,39.1,33.0,16.4
-05061,AR,Howard County,41.8,32.0,14.3
-05063,AR,Independence County,37.0,32.3,16.5
-05065,AR,Izard County,33.2,31.8,17.0
-05067,AR,Jackson County,43.1,27.7,12.7
-05069,AR,Jefferson County,41.4,27.5,19.5
-05071,AR,Johnson County,40.9,23.2,16.0
-05073,AR,Lafayette County,45.9,24.5,10.7
-05075,AR,Lawrence County,38.9,31.0,14.9
-05077,AR,Lee County,45.6,26.4,9.8
-05079,AR,Lincoln County,48.2,24.3,8.7
-05081,AR,Little River County,43.6,31.4,14.9
-05083,AR,Logan County,44.4,30.7,12.6
-05085,AR,Lonoke County,37.8,31.9,20.3
-05087,AR,Madison County,49.9,21.5,13.5
-05089,AR,Marion County,36.6,34.5,15.1
-05091,AR,Miller County,36.2,33.7,16.9
-05093,AR,Mississippi County,41.3,27.1,14.2
-05095,AR,Monroe County,41.3,24.0,13.5
-05097,AR,Montgomery County,32.9,35.7,15.3
-05099,AR,Nevada County,51.3,28.5,11.1
-05101,AR,Newton County,37.9,30.9,16.4
-05103,AR,Ouachita County,40.5,33.7,13.3
-05105,AR,Perry County,43.4,30.4,17.5
-05107,AR,Phillips County,31.8,35.6,14.3
-05109,AR,Pike County,38.2,30.2,19.5
-05111,AR,Poinsett County,44.8,25.2,11.5
-05113,AR,Polk County,38.1,34.9,15.5
-05115,AR,Pope County,33.8,27.2,23.2
-05117,AR,Prairie County,42.4,29.2,15.3
-05119,AR,Pulaski County,25.7,29.5,36.3
-05121,AR,Randolph County,38.3,31.2,16.1
-05123,AR,St. Francis County,39.3,31.6,11.4
-05125,AR,Saline County,30.7,33.2,27.9
-05127,AR,Scott County,40.8,28.2,10.9
-05129,AR,Searcy County,39.6,25.3,15.3
-05131,AR,Sebastian County,29.6,31.0,24.0
-05133,AR,Sevier County,34.5,27.4,11.6
-05135,AR,Sharp County,39.0,32.1,11.1
-05137,AR,Stone County,34.5,35.8,14.4
-05139,AR,Union County,38.0,30.0,18.4
-05141,AR,Van Buren County,41.4,27.4,16.3
-05143,AR,Washington County,27.6,25.2,33.7
-05145,AR,White County,40.4,25.1,20.3
-05147,AR,Woodruff County,43.1,23.2,16.1
-05149,AR,Yell County,37.7,25.7,14.0
-06001,CA,Alameda County,16.7,22.7,49.6
-06003,CA,Alpine County,25.7,28.7,39.3
-06005,CA,Amador County,30.7,41.1,19.5
-06007,CA,Butte County,22.3,38.3,29.8
-06009,CA,Calaveras County,30.9,40.0,19.9
-06011,CA,Colusa County,30.5,28.2,14.7
-06013,CA,Contra Costa County,17.5,28.2,44.1
-06015,CA,Del Norte County,31.0,33.5,16.1
-06017,CA,El Dorado County,20.8,37.1,36.8
-06019,CA,Fresno County,22.7,32.6,22.6
-06021,CA,Glenn County,30.3,31.3,14.9
-06023,CA,Humboldt County,23.1,36.7,31.2
-06025,CA,Imperial County,25.6,29.7,15.2
-06027,CA,Inyo County,30.5,34.3,27.3
-06029,CA,Kern County,27.6,30.8,17.6
-06031,CA,Kings County,26.1,33.2,14.3
-06033,CA,Lake County,29.9,39.2,17.5
-06035,CA,Lassen County,32.4,35.8,11.8
-06037,CA,Los Angeles County,20.4,25.6,34.0
-06039,CA,Madera County,23.3,32.2,16.4
-06041,CA,Marin County,10.2,23.1,60.1
-06043,CA,Mariposa County,22.4,39.6,28.9
-06045,CA,Mendocino County,26.3,35.8,24.5
-06047,CA,Merced County,26.5,29.8,14.1
-06049,CA,Modoc County,32.5,33.2,19.7
-06051,CA,Mono County,22.4,35.3,29.5
-06053,CA,Monterey County,20.3,26.2,26.5
-06055,CA,Napa County,18.0,30.3,37.0
-06057,CA,Nevada County,19.0,37.4,38.7
-06059,CA,Orange County,17.2,27.3,42.1
-06061,CA,Placer County,17.6,35.6,41.6
-06063,CA,Plumas County,27.3,44.2,23.0
-06065,CA,Riverside County,26.9,32.5,23.5
-06067,CA,Sacramento County,22.0,34.1,32.0
-06069,CA,San Benito County,26.8,35.9,20.5
-06071,CA,San Bernardino County,26.9,32.3,21.9
-06073,CA,San Diego County,18.2,29.9,40.3
-06075,CA,San Francisco County,11.4,17.9,59.5
-06077,CA,San Joaquin County,28.8,32.1,19.5
-06079,CA,San Luis Obispo County,19.6,35.6,36.7
-06081,CA,San Mateo County,14.9,23.5,52.5
-06083,CA,Santa Barbara County,17.3,29.5,35.1
-06085,CA,Santa Clara County,13.7,21.1,54.4
-06087,CA,Santa Cruz County,15.9,30.5,41.9
-06089,CA,Shasta County,25.8,42.7,22.6
-06091,CA,Sierra County,29.5,42.5,22.3
-06093,CA,Siskiyou County,27.1,41.3,21.5
-06095,CA,Solano County,23.8,37.2,27.8
-06097,CA,Sonoma County,18.3,33.7,37.1
-06099,CA,Stanislaus County,30.0,32.1,17.9
-06101,CA,Sutter County,24.5,35.1,20.0
-06103,CA,Tehama County,29.0,39.8,17.0
-06105,CA,Trinity County,38.4,36.9,18.6
-06107,CA,Tulare County,26.5,30.9,15.2
-06109,CA,Tuolumne County,25.2,42.3,24.6
-06111,CA,Ventura County,19.8,31.8,34.0
-06113,CA,Yolo County,17.7,26.8,43.1
-06115,CA,Yuba County,23.2,40.2,17.7
-08001,CO,Adams County,28.3,30.1,26.4
-08003,CO,Alamosa County,28.4,32.9,25.6
-08005,CO,Arapahoe County,19.7,27.9,44.5
-08007,CO,Archuleta County,21.9,32.3,39.9
-08009,CO,Baca County,28.9,32.9,23.8
-08011,CO,Bent County,48.6,24.3,14.2
-08013,CO,Boulder County,11.1,21.5,62.9
-08014,CO,Broomfield County,13.0,25.8,57.8
-08015,CO,Chaffee County,25.8,29.3,39.4
-08017,CO,Cheyenne County,30.0,40.9,22.2
-08019,CO,Clear Creek County,20.0,23.8,53.6
-08021,CO,Conejos County,32.8,32.2,24.5
-08023,CO,Costilla County,29.3,33.2,24.4
-08025,CO,Crowley County,51.4,28.3,9.2
-08027,CO,Custer County,18.0,41.7,38.7
-08029,CO,Delta County,36.5,30.2,22.9
-08031,CO,Denver County,16.0,21.5,52.5
-08033,CO,Dolores County,42.4,27.6,26.5
-08035,CO,Douglas County,12.2,26.5,59.2
-08037,CO,Eagle County,15.6,25.2,50.9
-08039,CO,Elbert County,23.4,37.6,35.3
-08041,CO,El Paso County,19.6,35.3,39.5
-08043,CO,Fremont County,40.5,30.6,18.6
-08045,CO,Garfield County,25.7,30.9,32.9
-08047,CO,Gilpin County,14.2,30.7,48.8
-08049,CO,Grand County,30.3,26.5,37.7
-08051,CO,Gunnison County,16.7,24.5,56.7
-08053,CO,Hinsdale County,16.1,33.5,46.8
-08055,CO,Huerfano County,26.1,40.7,25.3
-08057,CO,Jackson County,23.4,35.4,27.2
-08059,CO,Jefferson County,19.6,27.6,47.9
-08061,CO,Kiowa County,27.1,49.7,20.3
-08063,CO,Kit Carson County,29.1,41.9,18.2
-08065,CO,Lake County,24.0,28.3,36.0
-08067,CO,La Plata County,20.4,29.2,47.0
-08069,CO,Larimer County,17.4,29.5,49.4
-08071,CO,Las Animas County,26.6,42.9,18.7
-08073,CO,Lincoln County,49.5,22.5,16.7
-08075,CO,Logan County,38.5,32.6,20.3
-08077,CO,Mesa County,27.3,34.9,29.3
-08079,CO,Mineral County,13.3,28.4,56.3
-08081,CO,Moffat County,41.9,31.2,18.8
-08083,CO,Montezuma County,29.9,30.9,30.0
-08085,CO,Montrose County,31.7,30.6,26.5
-08087,CO,Morgan County,31.2,32.0,17.5
-08089,CO,Otero County,31.9,37.0,19.0
-08091,CO,Ouray County,13.6,38.8,46.2
-08093,CO,Park County,25.2,39.2,33.1
-08095,CO,Phillips County,28.1,32.7,26.0
-08097,CO,Pitkin County,13.6,21.5,62.3
-08099,CO,Prowers County,29.3,36.0,16.9
-08101,CO,Pueblo County,29.4,37.5,23.7
-08103,CO,Rio Blanco County,32.9,34.7,23.9
-08105,CO,Rio Grande County,29.2,31.0,28.9
-08107,CO,Routt County,16.2,29.6,50.8
-08109,CO,Saguache County,30.7,30.5,25.5
-08111,CO,San Juan County,29.9,24.5,42.2
-08113,CO,San Miguel County,17.3,21.1,59.9
-08115,CO,Sedgwick County,26.3,40.0,22.4
-08117,CO,Summit County,17.4,24.3,52.8
-08119,CO,Teller County,24.9,35.9,37.0
-08121,CO,Washington County,31.1,38.2,22.1
-08123,CO,Weld County,25.4,33.2,29.5
-08125,CO,Yuma County,28.4,35.6,23.5
-09001,CT,Fairfield County,20.8,20.1,49.2
-09003,CT,Hartford County,25.8,25.3,39.2
-09005,CT,Litchfield County,29.5,28.2,36.2
-09007,CT,Middlesex County,25.2,26.2,43.6
-09009,CT,New Haven County,29.6,24.1,36.6
-09011,CT,New London County,28.6,29.9,34.6
-09013,CT,Tolland County,26.1,25.9,42.8
-09015,CT,Windham County,34.9,30.1,24.4
+1001,AL,Autauga County,32.8,28.7,28.1
+1003,AL,Baldwin County,27.4,31.2,32.5
+1005,AL,Barbour County,36.7,27.8,11.2
+1007,AL,Bibb County,43.9,24.7,11.9
+1009,AL,Blount County,35.1,33.6,14.9
+1011,AL,Bullock County,41.3,24.6,11.7
+1013,AL,Butler County,45.2,26.3,14.0
+1015,AL,Calhoun County,34.6,31.1,19.5
+1017,AL,Chambers County,36.2,32.9,13.7
+1019,AL,Cherokee County,36.9,30.1,12.8
+1021,AL,Chilton County,42.9,25.3,13.5
+1023,AL,Choctaw County,37.5,31.4,11.7
+1025,AL,Clarke County,41.4,26.9,13.9
+1027,AL,Clay County,38.2,31.4,13.4
+1029,AL,Cleburne County,37.5,29.2,16.4
+1031,AL,Coffee County,28.0,35.7,22.7
+1033,AL,Colbert County,37.7,31.2,17.9
+1035,AL,Conecuh County,48.5,26.6,12.5
+1037,AL,Coosa County,41.8,32.1,11.2
+1039,AL,Covington County,38.0,31.4,15.8
+1041,AL,Crenshaw County,41.8,23.0,16.4
+1043,AL,Cullman County,32.4,35.3,16.5
+1045,AL,Dale County,30.9,35.3,18.7
+1047,AL,Dallas County,38.2,31.6,16.1
+1049,AL,DeKalb County,33.5,30.3,14.4
+1051,AL,Elmore County,32.1,31.0,24.6
+1053,AL,Escambia County,43.7,25.4,12.5
+1055,AL,Etowah County,33.8,34.4,18.0
+1057,AL,Fayette County,41.0,30.2,11.8
+1059,AL,Franklin County,42.2,23.0,14.3
+1061,AL,Geneva County,36.6,32.4,13.5
+1063,AL,Greene County,39.3,32.5,12.7
+1065,AL,Hale County,39.1,26.4,15.8
+1067,AL,Henry County,32.2,27.5,21.6
+1069,AL,Houston County,32.1,33.4,22.2
+1071,AL,Jackson County,38.3,28.1,16.1
+1073,AL,Jefferson County,26.4,29.9,34.7
+1075,AL,Lamar County,41.7,30.8,10.0
+1077,AL,Lauderdale County,35.1,28.1,25.5
+1079,AL,Lawrence County,41.3,26.6,15.3
+1081,AL,Lee County,22.1,30.7,38.6
+1083,AL,Limestone County,27.3,30.8,28.4
+1085,AL,Lowndes County,43.1,26.5,15.1
+1087,AL,Macon County,30.0,32.3,21.2
+1089,AL,Madison County,19.2,28.5,44.3
+1091,AL,Marengo County,35.7,31.2,19.7
+1093,AL,Marion County,35.6,33.1,12.6
+1095,AL,Marshall County,31.2,31.0,21.4
+1097,AL,Mobile County,34.2,29.7,23.9
+1099,AL,Monroe County,44.7,24.8,12.9
+1101,AL,Montgomery County,25.8,28.5,33.4
+1103,AL,Morgan County,31.2,30.8,22.8
+1105,AL,Perry County,40.1,19.6,18.9
+1107,AL,Pickens County,42.3,27.6,13.3
+1109,AL,Pike County,36.3,23.3,27.8
+1111,AL,Randolph County,34.4,29.6,16.2
+1113,AL,Russell County,29.5,38.5,17.3
+1115,AL,St. Clair County,35.2,32.4,18.5
+1117,AL,Shelby County,19.8,29.0,44.8
+1119,AL,Sumter County,33.5,34.3,19.5
+1121,AL,Talladega County,34.6,32.4,15.9
+1123,AL,Tallapoosa County,31.6,31.9,18.1
+1125,AL,Tuscaloosa County,29.8,29.2,30.6
+1127,AL,Walker County,34.6,33.6,14.1
+1129,AL,Washington County,42.5,30.1,13.6
+1131,AL,Wilcox County,39.2,29.0,11.0
+1133,AL,Winston County,38.7,27.1,13.5
+2010,AK,Aleutian Islands,,,
+2013,AK,Aleutians East Borough,41.6,27.2,15.9
+2016,AK,Aleutians West Census Area,43.4,30.9,16.8
+2020,AK,Anchorage Municipality,23.7,33.7,36.8
+2050,AK,Bethel Census Area,46.6,22.6,12.7
+2060,AK,Bristol Bay Borough,30.2,42.5,22.1
+2063,AK,"Chugach Census Area, Alaska",23.3,41.3,30.7
+2066,AK,"Copper River Census Area, Alaska",35.2,29.1,29.8
+2068,AK,Denali Borough,30.4,28.5,39.4
+2070,AK,Dillingham Census Area,39.9,27.1,19.6
+2090,AK,Fairbanks North Star Borough,25.6,36.3,32.6
+2100,AK,Haines Borough,39.4,32.6,25.6
+2105,AK,Hoonah-Angoon Census Area,36.5,34.9,22.3
+2110,AK,Juneau City and Borough,21.0,34.4,40.1
+2122,AK,Kenai Peninsula Borough,30.9,35.7,27.4
+2130,AK,Ketchikan Gateway Borough,28.9,38.7,26.4
+2150,AK,Kodiak Island Borough,28.2,33.2,29.2
+2158,AK,Kusilvak Census Area,55.6,21.0,2.9
+2160,AK,Kuskokwim Division,,,
+2164,AK,Lake and Peninsula Borough,40.7,26.3,22.2
+2170,AK,Matanuska-Susitna Borough,33.0,37.0,23.7
+2180,AK,Nome Census Area,43.6,25.7,18.4
+2185,AK,North Slope Borough,41.4,30.6,15.6
+2188,AK,Northwest Arctic Borough,47.1,22.8,14.4
+2195,AK,Petersburg Census Area,31.0,32.0,28.4
+2198,AK,Prince of Wales-Hyder Census Area,38.1,35.1,19.2
+2201,AK,Prince of Wales-Outer Ketchikan Census Area,,,
+2220,AK,Sitka City and Borough,25.4,36.2,33.2
+2230,AK,Skagway Municipality,33.5,31.9,25.0
+2231,AK,Skagway-Yakutat-Angoon Census Area,,,
+2232,AK,Skagway-Hoonah-Angoon Census Area,,,
+2240,AK,Southeast Fairbanks Census Area,38.1,35.1,19.3
+2250,AK,Upper Yukon Division,,,
+2261,AK,Valdez-Cordova Census Area,,,
+2275,AK,Wrangell City and Borough,37.0,32.6,15.2
+2280,AK,Wrangell-Petersburg Census Area,,,
+2282,AK,Yakutat City and Borough,44.6,39.7,10.3
+2290,AK,Yukon-Koyukuk Census Area,42.3,31.9,12.9
+4001,AZ,Apache County,31.0,38.3,12.8
+4003,AZ,Cochise County,24.4,38.5,25.8
+4005,AZ,Coconino County,21.3,30.9,38.7
+4007,AZ,Gila County,28.5,39.7,18.8
+4009,AZ,Graham County,29.6,39.1,14.7
+4011,AZ,Greenlee County,32.6,39.1,16.0
+4012,AZ,La Paz County,34.0,38.2,11.8
+4013,AZ,Maricopa County,22.0,32.5,34.4
+4015,AZ,Mohave County,34.3,38.5,14.6
+4017,AZ,Navajo County,29.5,38.4,16.7
+4019,AZ,Pima County,21.4,33.6,34.4
+4021,AZ,Pinal County,30.4,36.2,20.9
+4023,AZ,Santa Cruz County,26.1,28.6,23.0
+4025,AZ,Yavapai County,25.2,38.6,27.8
+4027,AZ,Yuma County,26.6,32.6,15.7
+5001,AR,Arkansas County,41.9,28.2,16.6
+5003,AR,Ashley County,50.9,22.3,12.0
+5005,AR,Baxter County,34.7,35.3,18.6
+5007,AR,Benton County,29.4,25.8,34.6
+5009,AR,Boone County,33.8,37.5,17.8
+5011,AR,Bradley County,42.9,28.7,12.5
+5013,AR,Calhoun County,43.3,28.6,12.2
+5015,AR,Carroll County,35.2,28.0,22.0
+5017,AR,Chicot County,38.3,25.3,14.8
+5019,AR,Clark County,32.0,30.6,27.9
+5021,AR,Clay County,42.8,27.5,14.0
+5023,AR,Cleburne County,42.4,28.9,17.0
+5025,AR,Cleveland County,46.7,27.3,16.7
+5027,AR,Columbia County,39.8,27.1,20.2
+5029,AR,Conway County,41.0,28.5,18.7
+5031,AR,Craighead County,32.8,27.9,28.9
+5033,AR,Crawford County,34.1,31.7,19.1
+5035,AR,Crittenden County,35.4,31.6,17.5
+5037,AR,Cross County,41.8,26.0,14.1
+5039,AR,Dallas County,45.2,31.0,11.5
+5041,AR,Desha County,44.2,23.0,13.7
+5043,AR,Drew County,36.6,26.6,23.7
+5045,AR,Faulkner County,30.1,30.1,32.9
+5047,AR,Franklin County,41.6,34.3,10.6
+5049,AR,Fulton County,37.2,37.3,11.4
+5051,AR,Garland County,31.8,34.8,23.8
+5053,AR,Grant County,42.6,31.0,18.0
+5055,AR,Greene County,44.3,28.0,16.3
+5057,AR,Hempstead County,38.4,29.4,16.0
+5059,AR,Hot Spring County,39.1,33.0,16.4
+5061,AR,Howard County,41.8,32.0,14.3
+5063,AR,Independence County,37.0,32.3,16.5
+5065,AR,Izard County,33.2,31.8,17.0
+5067,AR,Jackson County,43.1,27.7,12.7
+5069,AR,Jefferson County,41.4,27.5,19.5
+5071,AR,Johnson County,40.9,23.2,16.0
+5073,AR,Lafayette County,45.9,24.5,10.7
+5075,AR,Lawrence County,38.9,31.0,14.9
+5077,AR,Lee County,45.6,26.4,9.8
+5079,AR,Lincoln County,48.2,24.3,8.7
+5081,AR,Little River County,43.6,31.4,14.9
+5083,AR,Logan County,44.4,30.7,12.6
+5085,AR,Lonoke County,37.8,31.9,20.3
+5087,AR,Madison County,49.9,21.5,13.5
+5089,AR,Marion County,36.6,34.5,15.1
+5091,AR,Miller County,36.2,33.7,16.9
+5093,AR,Mississippi County,41.3,27.1,14.2
+5095,AR,Monroe County,41.3,24.0,13.5
+5097,AR,Montgomery County,32.9,35.7,15.3
+5099,AR,Nevada County,51.3,28.5,11.1
+5101,AR,Newton County,37.9,30.9,16.4
+5103,AR,Ouachita County,40.5,33.7,13.3
+5105,AR,Perry County,43.4,30.4,17.5
+5107,AR,Phillips County,31.8,35.6,14.3
+5109,AR,Pike County,38.2,30.2,19.5
+5111,AR,Poinsett County,44.8,25.2,11.5
+5113,AR,Polk County,38.1,34.9,15.5
+5115,AR,Pope County,33.8,27.2,23.2
+5117,AR,Prairie County,42.4,29.2,15.3
+5119,AR,Pulaski County,25.7,29.5,36.3
+5121,AR,Randolph County,38.3,31.2,16.1
+5123,AR,St. Francis County,39.3,31.6,11.4
+5125,AR,Saline County,30.7,33.2,27.9
+5127,AR,Scott County,40.8,28.2,10.9
+5129,AR,Searcy County,39.6,25.3,15.3
+5131,AR,Sebastian County,29.6,31.0,24.0
+5133,AR,Sevier County,34.5,27.4,11.6
+5135,AR,Sharp County,39.0,32.1,11.1
+5137,AR,Stone County,34.5,35.8,14.4
+5139,AR,Union County,38.0,30.0,18.4
+5141,AR,Van Buren County,41.4,27.4,16.3
+5143,AR,Washington County,27.6,25.2,33.7
+5145,AR,White County,40.4,25.1,20.3
+5147,AR,Woodruff County,43.1,23.2,16.1
+5149,AR,Yell County,37.7,25.7,14.0
+6001,CA,Alameda County,16.7,22.7,49.6
+6003,CA,Alpine County,25.7,28.7,39.3
+6005,CA,Amador County,30.7,41.1,19.5
+6007,CA,Butte County,22.3,38.3,29.8
+6009,CA,Calaveras County,30.9,40.0,19.9
+6011,CA,Colusa County,30.5,28.2,14.7
+6013,CA,Contra Costa County,17.5,28.2,44.1
+6015,CA,Del Norte County,31.0,33.5,16.1
+6017,CA,El Dorado County,20.8,37.1,36.8
+6019,CA,Fresno County,22.7,32.6,22.6
+6021,CA,Glenn County,30.3,31.3,14.9
+6023,CA,Humboldt County,23.1,36.7,31.2
+6025,CA,Imperial County,25.6,29.7,15.2
+6027,CA,Inyo County,30.5,34.3,27.3
+6029,CA,Kern County,27.6,30.8,17.6
+6031,CA,Kings County,26.1,33.2,14.3
+6033,CA,Lake County,29.9,39.2,17.5
+6035,CA,Lassen County,32.4,35.8,11.8
+6037,CA,Los Angeles County,20.4,25.6,34.0
+6039,CA,Madera County,23.3,32.2,16.4
+6041,CA,Marin County,10.2,23.1,60.1
+6043,CA,Mariposa County,22.4,39.6,28.9
+6045,CA,Mendocino County,26.3,35.8,24.5
+6047,CA,Merced County,26.5,29.8,14.1
+6049,CA,Modoc County,32.5,33.2,19.7
+6051,CA,Mono County,22.4,35.3,29.5
+6053,CA,Monterey County,20.3,26.2,26.5
+6055,CA,Napa County,18.0,30.3,37.0
+6057,CA,Nevada County,19.0,37.4,38.7
+6059,CA,Orange County,17.2,27.3,42.1
+6061,CA,Placer County,17.6,35.6,41.6
+6063,CA,Plumas County,27.3,44.2,23.0
+6065,CA,Riverside County,26.9,32.5,23.5
+6067,CA,Sacramento County,22.0,34.1,32.0
+6069,CA,San Benito County,26.8,35.9,20.5
+6071,CA,San Bernardino County,26.9,32.3,21.9
+6073,CA,San Diego County,18.2,29.9,40.3
+6075,CA,San Francisco County,11.4,17.9,59.5
+6077,CA,San Joaquin County,28.8,32.1,19.5
+6079,CA,San Luis Obispo County,19.6,35.6,36.7
+6081,CA,San Mateo County,14.9,23.5,52.5
+6083,CA,Santa Barbara County,17.3,29.5,35.1
+6085,CA,Santa Clara County,13.7,21.1,54.4
+6087,CA,Santa Cruz County,15.9,30.5,41.9
+6089,CA,Shasta County,25.8,42.7,22.6
+6091,CA,Sierra County,29.5,42.5,22.3
+6093,CA,Siskiyou County,27.1,41.3,21.5
+6095,CA,Solano County,23.8,37.2,27.8
+6097,CA,Sonoma County,18.3,33.7,37.1
+6099,CA,Stanislaus County,30.0,32.1,17.9
+6101,CA,Sutter County,24.5,35.1,20.0
+6103,CA,Tehama County,29.0,39.8,17.0
+6105,CA,Trinity County,38.4,36.9,18.6
+6107,CA,Tulare County,26.5,30.9,15.2
+6109,CA,Tuolumne County,25.2,42.3,24.6
+6111,CA,Ventura County,19.8,31.8,34.0
+6113,CA,Yolo County,17.7,26.8,43.1
+6115,CA,Yuba County,23.2,40.2,17.7
+8001,CO,Adams County,28.3,30.1,26.4
+8003,CO,Alamosa County,28.4,32.9,25.6
+8005,CO,Arapahoe County,19.7,27.9,44.5
+8007,CO,Archuleta County,21.9,32.3,39.9
+8009,CO,Baca County,28.9,32.9,23.8
+8011,CO,Bent County,48.6,24.3,14.2
+8013,CO,Boulder County,11.1,21.5,62.9
+8014,CO,Broomfield County,13.0,25.8,57.8
+8015,CO,Chaffee County,25.8,29.3,39.4
+8017,CO,Cheyenne County,30.0,40.9,22.2
+8019,CO,Clear Creek County,20.0,23.8,53.6
+8021,CO,Conejos County,32.8,32.2,24.5
+8023,CO,Costilla County,29.3,33.2,24.4
+8025,CO,Crowley County,51.4,28.3,9.2
+8027,CO,Custer County,18.0,41.7,38.7
+8029,CO,Delta County,36.5,30.2,22.9
+8031,CO,Denver County,16.0,21.5,52.5
+8033,CO,Dolores County,42.4,27.6,26.5
+8035,CO,Douglas County,12.2,26.5,59.2
+8037,CO,Eagle County,15.6,25.2,50.9
+8039,CO,Elbert County,23.4,37.6,35.3
+8041,CO,El Paso County,19.6,35.3,39.5
+8043,CO,Fremont County,40.5,30.6,18.6
+8045,CO,Garfield County,25.7,30.9,32.9
+8047,CO,Gilpin County,14.2,30.7,48.8
+8049,CO,Grand County,30.3,26.5,37.7
+8051,CO,Gunnison County,16.7,24.5,56.7
+8053,CO,Hinsdale County,16.1,33.5,46.8
+8055,CO,Huerfano County,26.1,40.7,25.3
+8057,CO,Jackson County,23.4,35.4,27.2
+8059,CO,Jefferson County,19.6,27.6,47.9
+8061,CO,Kiowa County,27.1,49.7,20.3
+8063,CO,Kit Carson County,29.1,41.9,18.2
+8065,CO,Lake County,24.0,28.3,36.0
+8067,CO,La Plata County,20.4,29.2,47.0
+8069,CO,Larimer County,17.4,29.5,49.4
+8071,CO,Las Animas County,26.6,42.9,18.7
+8073,CO,Lincoln County,49.5,22.5,16.7
+8075,CO,Logan County,38.5,32.6,20.3
+8077,CO,Mesa County,27.3,34.9,29.3
+8079,CO,Mineral County,13.3,28.4,56.3
+8081,CO,Moffat County,41.9,31.2,18.8
+8083,CO,Montezuma County,29.9,30.9,30.0
+8085,CO,Montrose County,31.7,30.6,26.5
+8087,CO,Morgan County,31.2,32.0,17.5
+8089,CO,Otero County,31.9,37.0,19.0
+8091,CO,Ouray County,13.6,38.8,46.2
+8093,CO,Park County,25.2,39.2,33.1
+8095,CO,Phillips County,28.1,32.7,26.0
+8097,CO,Pitkin County,13.6,21.5,62.3
+8099,CO,Prowers County,29.3,36.0,16.9
+8101,CO,Pueblo County,29.4,37.5,23.7
+8103,CO,Rio Blanco County,32.9,34.7,23.9
+8105,CO,Rio Grande County,29.2,31.0,28.9
+8107,CO,Routt County,16.2,29.6,50.8
+8109,CO,Saguache County,30.7,30.5,25.5
+8111,CO,San Juan County,29.9,24.5,42.2
+8113,CO,San Miguel County,17.3,21.1,59.9
+8115,CO,Sedgwick County,26.3,40.0,22.4
+8117,CO,Summit County,17.4,24.3,52.8
+8119,CO,Teller County,24.9,35.9,37.0
+8121,CO,Washington County,31.1,38.2,22.1
+8123,CO,Weld County,25.4,33.2,29.5
+8125,CO,Yuma County,28.4,35.6,23.5
+9001,CT,Fairfield County,20.8,20.1,49.2
+9003,CT,Hartford County,25.8,25.3,39.2
+9005,CT,Litchfield County,29.5,28.2,36.2
+9007,CT,Middlesex County,25.2,26.2,43.6
+9009,CT,New Haven County,29.6,24.1,36.6
+9011,CT,New London County,28.6,29.9,34.6
+9013,CT,Tolland County,26.1,25.9,42.8
+9015,CT,Windham County,34.9,30.1,24.4
 10001,DE,Kent County,32.8,30.3,25.7
 10003,DE,New Castle County,29.3,25.5,37.5
 10005,DE,Sussex County,31.1,28.1,30.4
