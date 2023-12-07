@@ -1,0 +1,35 @@
+---
+title: "map"
+author: "Liam Lindhe-Johan, Maryory Ajpop, Anand Puri, Beem Chivatxaranukul"
+date: '`r Sys.Date()`'
+output: html_document
+---
+
+```{r}
+library(tidyverse)
+library(choroplethr)
+library(choroplethrMaps)
+library(dplyr)
+library(ggplot2)
+dataPov <- read.csv("Data/poverty.csv")
+dataEduc <- read.csv("Data/Education.csv")
+
+dataPov <- dataPov %>%  
+  rename(region = FIPS_Code)
+dataPov <- dataPov %>% 
+  rename(value = PCTPOVALL_2021)
+dataEduc <- dataEduc %>% 
+  mutate(educationFull = Percent.of.adults.with.a.high.school.diploma.only..2017.21 + Percent.of.adults.completing.some.college.or.associate.s.degree..2017.21 + Percent.of.adults.with.a.bachelor.s.degree.or.higher..2017.21)
+dataEduc <- dataEduc %>% 
+  rename(region = FIPS_Code) %>% 
+  rename(value = educationFull) %>% 
+  select(region, value)
+county_choropleth(dataPov,
+                  title = "United States Citizens Below the Poverty Line",
+                  legend = "% of Citizens In Poverty")
+
+choro = CountyChoropleth$new(dataEduc)
+choro$title = "Adults with a High School Deploma or Higher Level of Education"
+choro$ggplot_scale = scale_fill_brewer(name="% of Adults With Education", palette=8, drop=FALSE)
+choro$render()
+```
