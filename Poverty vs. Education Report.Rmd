@@ -1,0 +1,55 @@
+---
+title: "Poverty vs. Education Report"
+author: "Liam Lindhe-Johan, Maryory Ajpop, Anand Puri, Beem Chivatxaranukul"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+# Introduction
+
+In researching a topic for this project the group decided they wanted to focus not on something that could be arbitrarily related, but a subject we knew must in some way be correlated. We wanted to tackle an issue that many are aware of, but often overlook due to how abstract of a concept it can be. The group decided on level of education versus amount of poverty in a location in the united states because we wanted a better understanding of where and how divisions in the educational field begin to arise. This subject is crucially important for the future of both education and economics in the United States as the relationship between these variables can have impacts that span generations.
+
+We already know that at a baseline there is a correlation between income and education. This is due to several widely known and understood factors such as segregation, redlining, discrimination, the list goes on. The group already knew about these factors before deciding on our final data sets, and that was part of the reason we all felt it important to do our project on this subject in particular. While we all understood that this problem existed none of us knew where it was worst or to what extent it is still prevalent, and we felt that if we had these questions it would be likely that others did as well.
+
+The questions that our group posed to focus our research and our project design process were:
+
+1.  how does the education of an area correlate to the poverty of that area?
+
+2.  how do different levels of education percentage correlate to poverty of a county?
+
+3.  does a statewide higher level of education correlate to a statewide lower poverty rate?
+
+4.  does completing a high school education significantly lower the chance of poverty?
+
+In answering these questions we wanted to further understand the extent to which education effects the poverty of a location and if a more educated population truly leads to a lower rate of poverty.
+
+This topic is incredibly important for the future of the United States and is intrinsically tied to almost every persons life to some extent. Recognizing how prominent and impactful these factors are in the overall poverty of the USA is a crucial step in the improvement of these issues, no matter what educational or economic background you originate from. These issues have effected all of us either directly or indirectly throughout the course of our lives and for us as a country to begin healing some of this damage we must first understand how and where it exists. This report will, for all intents and purposes, attempt to shine a light on the places in which the problems of education and poverty plague our country the most, and we as a group will seek to educate ourselves and others on the importance of these issues.
+
+# Data
+
+The data sets we used were:
+
+# 
+
+```{r}
+library(tidyverse)
+eduStats <- read.csv("Data/Education.csv")
+tibble(eduStats)
+
+povEst <- read.csv("Data/PovertyEstimates.csv")
+tibble(povEst)
+```
+
+# 
+
+# 
+
+While they don't show up well unformatted in R, they functioned well for our purposes as they aligned with each other quite nicely and gave us more than the amount of information we were initially looking for.
+
+Both of our data sets came from the Economic Research Service which is a part of the federal government with the goal of documenting important statistics such as these.
+
+As this is a public and freely accessible arm of the federal government, anyone with an internet connection and the means to store the files can access both of these data sets. The data does not have any specific restrictions on it and is free to be used by anyone for essentially any purpose.
+
+The data sets are fairly broad with entries on multiple facets of both education and poverty in all of the available counties in each state of the United States. The population of the data sets were clearly the residents of the USA and their education amount and poverty level. The sample for both of these data sets is the responses they received from their online surveys and the contents of the immense library of past survey responses from the rest of the government.
+
+There were a few minor issues with the data such as formatting and misleading column labels, these are fairly visible from the earlier visualizations. Before we could begin using the data we had to overhaul the categorization and formatting system both data sets originally had. The worse of the two issues was absolutely the column titles, especially in the poverty data set in which they are absolutely unviewable without a secondary cheat sheet defining each column individually.
