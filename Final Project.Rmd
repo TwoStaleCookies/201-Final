@@ -10,19 +10,141 @@ library(ggplot2)
 library(viridisLite)
 library(choroplethr)
 library(choroplethrMaps)
-usMap <- map_data("state")
-head(usMap)
-usMap %>% 
-  ggplot(aes(x = long, y = lat, group = group))+
-  geom_polygon(fill = 'lightblue', color = 'black')+
-  theme_void()
-data(df_pop_county)
-df_pop_county %>% 
-  slice(1:3)
-county_choropleth(df_pop_county)
-```
-```{r}
-county_choropleth(df_pop_county, state_zoom = c("north carolina"),
-                  reference_map = TRUE)
+# usMap <- map_data("state")
+# head(usMap)
+# usMap %>% 
+#   ggplot(aes(x = long, y = lat, group = group))+
+#   geom_polygon(fill = 'lightblue', color = 'black')+
+#   theme_void()
+# data(df_pop_county)
+# df_pop_county %>% 
+#   slice(1:3)
+# county_choropleth(df_pop_county)
+
+education <- read.csv("education.csv")
+poverty <- read.csv("poverty.csv")
+
+education
+poverty
+
+edupov <- merge(education, poverty, by = "FIPS_Code")
+edupov
+
+edupov <- edupov %>% 
+  filter(totalEducation > 40)
+
+edupov$totalEducation <- edupov$Percent.of.adults.with.a.high.school.diploma.only..2017.21 +
+  edupov$Percent.of.adults.completing.some.college.or.associate.s.degree..2017.21 +
+  edupov$Percent.of.adults.with.a.bachelor.s.degree.or.higher..2017.21
+
+edupov %>% 
+  ggplot(aes(totalEducation, PCTPOVALL_2021)) +
+  geom_point(col = "black") +
+  geom_smooth(method = "lm", col = "pink2") +
+  theme_minimal() +
+  labs(
+    x = "% of People With Highschool Education or Better",
+    y = "% of People in Poverty",
+    title = "Effect of Education on Poverty"
+  )
+
+edupov %>% 
+  select(FIPS_Code, Percent.of.adults.with.a.high.school.diploma.only..2017.21,
+         Percent.of.adults.completing.some.college.or.associate.s.degree..2017.21,
+         Percent.of.adults.with.a.bachelor.s.degree.or.higher..2017.21, PCTPOVALL_2021) %>% 
+  ggplot() +
+  geom_point(aes(Percent.of.adults.with.a.high.school.diploma.only..2017.21,
+                   PCTPOVALL_2021), col = "blue") +
+  geom_smooth(aes(Percent.of.adults.with.a.high.school.diploma.only..2017.21,
+                   PCTPOVALL_2021), col = "blue", method = "lm") +
+  geom_point(aes(Percent.of.adults.with.a.bachelor.s.degree.or.higher..2017.21,
+                   PCTPOVALL_2021), col = "maroon") +
+  geom_smooth(aes(Percent.of.adults.with.a.bachelor.s.degree.or.higher..2017.21,
+                   PCTPOVALL_2021), col = "maroon", method = "lm") +
+  labs(
+    x = "Education", 
+    y = "Percent of People in Poverty", 
+  ) +
+  theme_minimal()
+
+edupovlong <- pivot_longer(edupov, cols = c(Percent.of.adults.with.a.high.school.diploma.only..2017.21,
+                                            Percent.of.adults.with.a.bachelor.s.degree.or.higher..2017.21),
+                           names_to = "educationLevel", 
+                           values_to = "percent")
+edupovlong <- edupovlong %>% 
+  select(FIPS_Code, educationLevel, percent, PCTPOVALL_2021)
+
+edupovlong
+
+edupovlong %>% 
+  group_by(educationLevel) %>% 
+  ggplot(aes(percent, PCTPOVALL_2021, col = educationLevel)) +
+  geom_point() +
+  geom_smooth(method = "lm") +
+  labs(
+    x = "Education Level",
+    y = "Percent in Poverty"
+  )
+
+edupov$highschoolOrLower <- 100 - edupov$Percent.of.adults.with.a.bachelor.s.degree.or.higher..2017.21 -
+  edupov$Percent.of.adults.completing.some.college.or.associate.s.degree..2017.21
+
+edupov %>% 
+  ggplot(aes(highschoolOrLower, PCTPOVALL_2021)) +
+  geom_point() +
+  geom_smooth(method = "lm", col = "pink2") +
+  labs(
+    x = "Highschool Degree or Less",
+    y = "Rate of Poverty in County",
+    title = "Likelyhood of Poverty Based on Degree"
+  ) +
+  theme_minimal()
+
+edupov$college <- edupov$Percent.of.adults.with.a.bachelor.s.degree.or.higher..2017.21 +
+  edupov$Percent.of.adults.completing.some.college.or.associate.s.degree..2017.21
+
+edupov %>% 
+  ggplot(aes(college, PCTPOVALL_2021)) +
+  geom_point() +
+  geom_smooth(method = "lm", col = "pink2") +
+  labs(
+    x = "Any College Experience",
+    y = "Rate of Poverty in County",
+    title = "Likelyhood of Poverty Based on Degree"
+  ) +
+  theme_minimal()
+
+edupov$highschoolFun <- edupov$PCTPOVALL_2021 * edupov$highschoolOrLower/100 / 100
+edupov$associatesFun <- edupov$PCTPOVALL_2021 * edupov$Percent.of.adults.completing.some.college.or.associate.s.degree..2017.21/100 / 100
+edupov$collegeFun <- edupov$PCTPOVALL_2021 * edupov$Percent.of.adults.with.a.bachelor.s.degree.or.higher..2017.21/100 / 100
+
+# edupovlonger <- pivot_longer(edupov, cols = c((edupov$highschoolFun), edupov$associatesFun, edupov$collegeFun),
+#                              names_to = "eduLevel",
+#                              values_to = "likelyPercent")
+
+highschoolAverage <- mean(edupov$highschoolFun, na.rm = TRUE)
+highschoolAverage
+
+associatesAverage <- mean(edupov$associatesFun, na.rm = TRUE)
+associatesAverage
+
+collegeAverage <- mean(edupov$collegeFun, na.rm = TRUE)
+collegeAverage
+
+eduStages <- c("A Highschool Degree Or Less", "Associates Degree", "Bachelor's Degree or Higher")
+eduAverages <- c(highschoolAverage, associatesAverage, collegeAverage)
+chanceOfPoverty <- data.frame(eduStages, eduAverages)
+
+
+chanceOfPoverty %>% 
+  ggplot(aes(eduStages, eduAverages, fill = eduStages)) +
+  geom_col() +
+  theme_minimal() +
+  labs(
+    x = "Stages of Education",
+    y = "Percentage of US Population in Poverty",
+    title = "Education Levels of People in Poverty",
+  ) +
+  guides(fill = FALSE)
 ```
 
