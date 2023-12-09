@@ -31,13 +31,16 @@ The data sets we used were:
 
 # 
 
-```{r}
+```{r echo=FALSE}
 library(tidyverse)
-eduStats <- read.csv("Data/Education.csv")
-tibble(eduStats)
+library(ggplot2)
+education <- read.csv("education.csv")
+tibble(education)
 
-povEst <- read.csv("Data/PovertyEstimates.csv")
-tibble(povEst)
+poverty <- read.csv("poverty.csv")
+tibble(poverty)
+
+edupov <- merge(education, poverty, by = "FIPS_Code")
 ```
 
 # 
@@ -68,7 +71,11 @@ For our last visualization, we wanted to figure out what part of the population 
 
 #Results
 We opted to utilize the formatted data to generate a set of four distinct graphical representations detailing and projecting the relationship between education levels and poverty rates. These visualizations included line graphs delineating the connections between different educational levels and poverty rates within populations, maps illustrating the distribution of poverty percentages across various counties in correlation with educational attainment, as well as a bar graph portraying the distribution of education levels among individuals experiencing poverty.
-```{r}
+```{r echo=FALSE}
+edupov$totalEducation <- edupov$Percent.of.adults.with.a.high.school.diploma.only..2017.21 +
+  edupov$Percent.of.adults.completing.some.college.or.associate.s.degree..2017.21 +
+  edupov$Percent.of.adults.with.a.bachelor.s.degree.or.higher..2017.21
+
 edupov %>% 
   ggplot(aes(totalEducation, PCTPOVALL_2021)) +
   geom_point(col = "black") +
@@ -79,6 +86,13 @@ edupov %>%
     y = "% of People in Poverty",
     title = "Effect of Education on Poverty"
   )
+
+edupovlong <- pivot_longer(edupov, cols = c(Percent.of.adults.with.a.high.school.diploma.only..2017.21,
+                                            Percent.of.adults.with.a.bachelor.s.degree.or.higher..2017.21),
+                           names_to = "educationLevel", 
+                           values_to = "percent")
+edupovlong <- edupovlong %>% 
+  select(FIPS_Code, educationLevel, percent, PCTPOVALL_2021)
 
 
 edupovlong %>% 
@@ -109,7 +123,24 @@ edupov %>%
 In our examination of the line graphs, a correlation emerged for individuals with a high school degree or lower which actually indicated a direct relationship between lower educational attainment and higher poverty rates. On the other hand, those with a college degree or higher exhibited an inverse relationship, showing decreasing poverty rates as the population of those with college degrees increased.
 
 The geographic insights collected from the maps revealed another interesting pattern, where counties with lower percentages of educated individuals concurrently exhibited higher percentages of poverty. Through the 2 different maps of education level and poverty levels, counties where the education level was generally high showed lower frequencies of poverty. This spatial correlation blueprinted the intricate relationship between educational opportunities and economic well-being.
-```{r}
+```{r echo=FALSE}
+edupov$highschoolFun <- edupov$PCTPOVALL_2021 * edupov$highschoolOrLower/100 / 100
+edupov$associatesFun <- edupov$PCTPOVALL_2021 * edupov$Percent.of.adults.completing.some.college.or.associate.s.degree..2017.21/100 / 100
+edupov$collegeFun <- edupov$PCTPOVALL_2021 * edupov$Percent.of.adults.with.a.bachelor.s.degree.or.higher..2017.21/100 / 100
+
+highschoolAverage <- mean(edupov$highschoolFun, na.rm = TRUE)
+highschoolAverage
+
+associatesAverage <- mean(edupov$associatesFun, na.rm = TRUE)
+associatesAverage
+
+collegeAverage <- mean(edupov$collegeFun, na.rm = TRUE)
+collegeAverage
+
+eduStages <- c("A Highschool Degree Or Less", "Associates Degree", "Bachelor's Degree or Higher")
+eduAverages <- c(highschoolAverage, associatesAverage, collegeAverage)
+chanceOfPoverty <- data.frame(eduStages, eduAverages)
+
 chanceOfPoverty %>% 
   ggplot(aes(eduStages, eduAverages, fill = eduStages)) +
   geom_col() +
