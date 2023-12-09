@@ -54,8 +54,69 @@ The data sets are fairly broad with entries on multiple facets of both education
 
 There were a few minor issues with the data such as formatting and misleading column labels, these are fairly visible from the earlier visualizations. Before we could begin using the data we had to overhaul the categorization and formatting system both data sets originally had. The worse of the two issues was absolutely the column titles, especially in the poverty data set in which they are entirely unviewable without a secondary cheat sheet defining each column individually.
 
+#Results
+We opted to utilize the formatted data to generate a set of four distinct graphical representations detailing and projecting the relationship between education levels and poverty rates. These visualizations included line graphs delineating the connections between different educational levels and poverty rates within populations, maps illustrating the distribution of poverty percentages across various counties in correlation with educational attainment, as well as a bar graph portraying the distribution of education levels among individuals experiencing poverty.
+```{r}
+edupov %>% 
+  ggplot(aes(totalEducation, PCTPOVALL_2021)) +
+  geom_point(col = "black") +
+  geom_smooth(method = "lm", col = "pink2") +
+  theme_minimal() +
+  labs(
+    x = "% of People With Highschool Education or Better",
+    y = "% of People in Poverty",
+    title = "Effect of Education on Poverty"
+  )
 
-We settled with using the data we formatted in order to create 4 different graphs detailing the relationships and connections between education and poverty rates. These included line graphs on the connection between populations with varying levels of education and poverty rates, maps showing the percentages of people in poverty within different counties correlating to those with education, and a bar graph showing the division of education levels among those in poverty. Through the line graphs depicted people with a highschool degree or less, there is a direct relationship between the two, while people with a college degree or higher showed an inverse relationship to poverty rates. With the maps, counties with lower percentages of people with education showed higher percentages of poverty, while the bar graph showed a majority of the people in poverty belonged to those with a high school education or less.
+
+edupovlong %>% 
+  group_by(educationLevel) %>% 
+  ggplot(aes(percent, PCTPOVALL_2021, col = educationLevel)) +
+  geom_point() +
+  geom_smooth(method = "lm") +
+  labs(
+    x = "Education Level",
+    y = "Percent in Poverty"
+  )
+edupov$highschoolOrLower <- 100 - edupov$Percent.of.adults.with.a.bachelor.s.degree.or.higher..2017.21 -
+  edupov$Percent.of.adults.completing.some.college.or.associate.s.degree..2017.21
+
+edupov %>% 
+  ggplot(aes(highschoolOrLower, PCTPOVALL_2021)) +
+  geom_point() +
+  geom_smooth(method = "lm", col = "pink2") +
+  labs(
+    x = "Highschool Degree or Less",
+    y = "Rate of Poverty in County",
+    title = "Likelyhood of Poverty Based on Degree"
+  ) +
+  theme_minimal()
+```
+
+
+In our examination of the line graphs, a correlation emerged for individuals with a high school degree or lower which actually indicated a direct relationship between lower educational attainment and higher poverty rates. On the other hand, those with a college degree or higher exhibited an inverse relationship, showing decreasing poverty rates as the population of those with college degrees increased.
+
+The geographic insights collected from the maps revealed another interesting pattern, where counties with lower percentages of educated individuals concurrently exhibited higher percentages of poverty. Through the 2 different maps of education level and poverty levels, counties where the education level was generally high showed lower frequencies of poverty. This spatial correlation blueprinted the intricate relationship between educational opportunities and economic well-being.
+```{r}
+chanceOfPoverty %>% 
+  ggplot(aes(eduStages, eduAverages, fill = eduStages)) +
+  geom_col() +
+  theme_minimal() +
+  labs(
+    x = "Stages of Education",
+    y = "Percentage of US Population in Poverty",
+    title = "Education Levels of People in Poverty",
+  ) +
+  guides(fill = FALSE)
+```
+
+Final insights were derived from the bar graph, which communicated the distribution of levels of education among those in poverty. Through research conducted, there was an estimated 12% of people in the United States that were considered to be in poverty. Through this bar graph, it can be seen that around 7% of that 12% belonged to the group of people who had only a high school degree or less. The remaining percentages were shared between those with an associates degree and those with a full bachelor's degree or higher, with the former taking up a bit more of the share than the latter.
+
+
+
+
+
+
 # Summary
 
 During our work on this project, the group gained an important understanding of the true impact of the data we were studying. As we analyzed and processed our data sets the power of what we were creating became increasingly more evident. The relationships between these variables display a multitude of shortcomings within our country and an understanding of them is absolutely necessary if we do hope to solve these issues. Knowing what we know now about the direct impact education has on the poverty of an area we can look to further research on how and why these relationships exist in the first place. While the topic we chose is a fairly well-known relationship, many citizens of the United States are unaware of just how proportional these two variables are to each other. With the creation of our visualizations, we wanted to demonstrate a clear understanding of the data that could reach and be understood by as many as possible. With our project, we hoped to decrease barriers to data and create a framework for a future without this glaring problem in the United States.
