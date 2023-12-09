@@ -7,15 +7,15 @@ output: html_document
 
 # Introduction
 
-In researching a topic for this project the group decided they wanted to focus not on something that could be arbitrarily related, but a subject we knew must in some way be correlated. We wanted to tackle an issue that many are aware of, but often overlook due to how abstract of a concept it can be. The group decided on level of education versus amount of poverty in a location in the united states because we wanted a better understanding of where and how divisions in the educational field begin to arise. This subject is crucially important for the future of both education and economics in the United States as the relationship between these variables can have impacts that span generations.
+In researching a topic for this project the group decided they wanted to focus not on something that could be arbitrarily related, but a subject we knew must in some way be correlated. We wanted to tackle an issue that many are aware of, but often overlook due to how abstract of a concept it can be. The group decided on the level of education versus the amount of poverty in a location in the United States because we wanted a better understanding of where and how divisions in the educational field began to arise. This subject is crucially important for the future of both education and economics in the United States as the relationship between these variables can have impacts that span generations.
 
-We already know that at a baseline there is a correlation between income and education. This is due to several widely known and understood factors such as segregation, redlining, discrimination, the list goes on. The group already knew about these factors before deciding on our final data sets, and that was part of the reason we all felt it important to do our project on this subject in particular. While we all understood that this problem existed none of us knew where it was worst or to what extent it is still prevalent, and we felt that if we had these questions it would be likely that others did as well.
+We already know that at a baseline there is a correlation between income and education. This is due to several widely known and understood factors such as segregation, redlining, discrimination, and so on. The group already knew about these factors before deciding on our final data sets, and that was part of the reason we all felt it important to do our project on this subject in particular. While we all understood that this problem existed, none of us knew where it was worst or to what extent it is still prevalent, and we felt that if we had these questions, others would likely do as well.
 
 The questions that our group posed to focus our research and our project design process were:
 
 1.  how does the education of an area correlate to the poverty of that area?
 
-2.  how do different levels of education percentage correlate to poverty of a county?
+2.  how do different levels of education percentage correlate to poverty in a county?
 
 3.  does a statewide higher level of education correlate to a statewide lower poverty rate?
 
@@ -52,7 +52,7 @@ As this is a public and freely accessible arm of the federal government, anyone 
 
 The data sets are fairly broad with entries on multiple facets of both education and poverty in all of the available counties in each state of the United States. The population of the data sets were clearly the residents of the USA and their education amount and poverty level. The sample for both of these data sets is the responses they received from their online surveys and the contents of the immense library of past survey responses from the rest of the government.
 
-There were a few minor issues with the data such as formatting and misleading column labels, these are fairly visible from the earlier visualizations. Before we could begin using the data we had to overhaul the categorization and formatting system both data sets originally had. The worse of the two issues was absolutely the column titles, especially in the poverty data set in which they are entirely unviewable without a secondary cheat sheet defining each column individually.
+There were a few minor issues with the data such as formatting and misleading column labels, these are fairly visible from the earlier visualizations. Before we could begin using the data we had to overhaul the categorization and formatting system both data sets originally had. The worst of the two issues was absolutely the column titles, especially in the poverty data set in which they are entirely unviewable without a secondary cheat sheet defining each column individually.
 
 #Results
 We opted to utilize the formatted data to generate a set of four distinct graphical representations detailing and projecting the relationship between education levels and poverty rates. These visualizations included line graphs delineating the connections between different educational levels and poverty rates within populations, maps illustrating the distribution of poverty percentages across various counties in correlation with educational attainment, as well as a bar graph portraying the distribution of education levels among individuals experiencing poverty.
@@ -110,12 +110,24 @@ chanceOfPoverty %>%
   guides(fill = FALSE)
 ```
 
-Final insights were derived from the bar graph, which communicated the distribution of levels of education among those in poverty. Through research conducted, there was an estimated 12% of people in the United States that were considered to be in poverty. Through this bar graph, it can be seen that around 7% of that 12% belonged to the group of people who had only a high school degree or less. The remaining percentages were shared between those with an associates degree and those with a full bachelor's degree or higher, with the former taking up a bit more of the share than the latter.
+Final insights were derived from the bar graph, which communicated the distribution of levels of education among those in poverty. Through research conducted, there was an estimated 12% of people in the United States were considered to be in poverty. Through this bar graph, it can be seen that around 7% of that 12% belonged to the group of people who had only a high school degree or less. The remaining percentages were shared between those with an associate's degree and those with a full bachelor's degree or higher, with the former taking up a bit more of the share than the latter.
 
 
+# Findings 
 
+The results we gathered illustrate the relationship between education levels and poverty rates in the United States. The various visualizations offer valuable insights into how access to education could influence an individual’s economic well-being.
 
+In the line graphs, there is a clear correlation between lower educational levels and higher poverty rates, especially for individuals with a high school degree or less. Contrarily, those with a college degree or higher show an inverse relationship, demonstrating that higher education is associated with lower poverty rates. This finding reveals the importance of education for economic prosperity.
 
+The geographic insights derived from the maps emphasize the correlation between education levels and poverty rates. Counties with lower percentages of education tend to have higher poverty rates, while those with higher education levels show lower poverty rates. This distribution highlights the significance and overall need for accessible and quality education when promoting economic development.
+
+On the bar graph, a significant portion of the population in poverty is composed of individuals with a high school education or less, accounting for around 7% of the overall poverty rate. This reinforces the idea that addressing educational disparities, particularly at the high school level, could have a notable impact on reducing poverty rates.
+
+The data sets, while vast, may not capture all the fine details of the complex relationship between education and poverty as the study focuses on correlations, not causation, leaving room for other factors influencing poverty rates.
+
+As for future work, this could involve a deeper exploration of specific demographic factors within educational levels. Analyzing additional variables such as race and gender could provide a more profound understanding of the disparities.
+
+While our findings offer valuable insights into the relationship between education and poverty, there is great potential for more in-depth analyses and exploration of additional variables to refine our understanding of this highly complex and critical issue.
 
 # Summary
 
